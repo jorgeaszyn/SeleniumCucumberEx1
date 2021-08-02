@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-02T16:11:40 UYT" name="Default suite" finished-at="2021-08-02T16:14:41 UYT" duration-ms="181058">
+    <groups>
+    </groups>
+    <test started-at="2021-08-02T16:11:40 UYT" name="Default test" finished-at="2021-08-02T16:14:41 UYT" duration-ms="181058">
+      <class name="exercise.ExerciseMethods">
+        <test-method is-config="true" signature="Login()[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:11:40 UYT" name="Login" finished-at="2021-08-02T16:12:00 UYT" duration-ms="20029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ExcerciseP1()[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:12:00 UYT" name="ExcerciseP1" finished-at="2021-08-02T16:13:12 UYT" duration-ms="72240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP1 -->
+        <test-method signature="ExcerciseP2(org.testng.ITestContext)[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:13:12 UYT" name="ExcerciseP2" finished-at="2021-08-02T16:13:29 UYT" duration-ms="17135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c432866]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP2 -->
+        <test-method signature="ExcerciseP3()[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:13:29 UYT" name="ExcerciseP3" finished-at="2021-08-02T16:13:36 UYT" duration-ms="6611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP3 -->
+        <test-method signature="ExcerciseP4(org.testng.ITestContext)[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:13:36 UYT" name="ExcerciseP4" finished-at="2021-08-02T16:13:46 UYT" depends-on-methods="exercise.ExerciseMethods.ExcerciseP2" duration-ms="10626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c432866]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP4 -->
+        <test-method signature="ExcerciseP5(org.testng.ITestContext)[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:13:46 UYT" name="ExcerciseP5" finished-at="2021-08-02T16:14:03 UYT" depends-on-methods="exercise.ExerciseMethods.ExcerciseP2" duration-ms="16130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c432866]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP5 -->
+        <test-method signature="ExcerciseP6(org.testng.ITestContext)[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:14:03 UYT" name="ExcerciseP6" finished-at="2021-08-02T16:14:16 UYT" depends-on-methods="exercise.ExerciseMethods.ExcerciseP2" duration-ms="13872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c432866]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP6 -->
+        <test-method signature="ExcerciseP7(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:14:17 UYT" name="ExcerciseP7" data-provider="getData" finished-at="2021-08-02T16:14:25 UYT" depends-on-methods="exercise.ExerciseMethods.ExcerciseP6" duration-ms="8137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rdAccount]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[333333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0003]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[account.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP7 -->
+        <test-method signature="ExcerciseP7(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:14:25 UYT" name="ExcerciseP7" data-provider="getData" finished-at="2021-08-02T16:14:32 UYT" depends-on-methods="exercise.ExerciseMethods.ExcerciseP6" duration-ms="7545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4thAccount]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4444444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0004]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[account.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP7 -->
+        <test-method signature="ExcerciseP7(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:14:32 UYT" name="ExcerciseP7" data-provider="getData" finished-at="2021-08-02T16:14:40 UYT" depends-on-methods="exercise.ExerciseMethods.ExcerciseP6" duration-ms="7705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5thAccount]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0005]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[account.com.uy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcerciseP7 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:exercise.ExerciseMethods@393671df]" started-at="2021-08-02T16:14:40 UYT" name="teardown" finished-at="2021-08-02T16:14:41 UYT" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- exercise.ExerciseMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
